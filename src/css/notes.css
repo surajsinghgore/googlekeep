@@ -1,0 +1,85 @@
+.notes{
+    width: 100%;
+    height: auto;
+
+}
+.note{
+   border-radius: 7px;
+    position: relative;
+    top: 0%;
+    margin:2%;
+    margin-top: 5%;
+    left: 1%;
+    width: 20%;
+    height:130px;
+    
+    float: left;
+    box-shadow: 0px 0px 10px 2px rgb(114, 113, 113);
+}
+.note h1{
+    width: 100%;
+    height: 20px;
+    padding-left: 5px;
+    font-size: 22px;
+    color: rgb(61, 60, 60);
+}
+.note p{
+    width: 100%;
+    height: 70px;
+    padding-left: 5px;
+}
+
+.note button{
+    position: absolute;
+
+    bottom: 2%;
+    right: 3%;
+    outline: none;
+    border: none;
+    width: 35px;
+    height: 35px;
+    box-shadow: 0px 0px 10px 2px rgb(182, 182, 182);
+    border-radius:30px;
+}
+ .delete{
+    cursor: pointer;
+    color: orange;
+}
+.note button:hover .delete{
+ 
+    
+    color: rgb(223, 0, 0);
+}
+
+
+@media (max-width: 1020px){
+    .note{
+       
+         margin-top: 9%;
+         left: 1%;
+         width: 45%;
+         height:130px;
+         
+        
+     } 
+     .note h1{
+        width: 100%;
+        height: auto;
+        padding-left: 5px;
+
+        font-size: 4vw;
+        overflow: scroll;
+        word-wrap: break-word;
+        color: rgb(61, 60, 60);
+    }
+
+     .note p{
+        width: 100%;
+        height: 80px;
+        padding-left: 5px;
+    overflow: scroll;
+    font-size: 3vw;
+    word-wrap: break-word;
+    padding-bottom: 2%;
+    }
+}

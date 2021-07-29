@@ -1,0 +1,28 @@
+footer{
+    clear: both;
+    position: relative;
+    top: 80px;
+    left: 0;
+ height: 50px;
+    background-color: rgb(245, 191, 32);
+text-align: center;
+line-height: 50px;
+font-size: 30px;
+color: white;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+
+}
+@media (max-width: 1020px){
+    footer{
+       
+        top: 80px;
+        left: 0;
+     height: auto;
+        
+    font-size: 8vw;
+    
+    padding-bottom: 3%;
+    padding-top: 3%;
+    }
+}

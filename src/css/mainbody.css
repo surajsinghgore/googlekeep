@@ -1,0 +1,80 @@
+.main_body{
+
+position: relative;
+top: 15px;
+left: 35%;
+width: 35%;
+
+box-shadow: 0px 0px 10px 1px rgb(119, 119, 119);
+
+border-radius: 7px;
+}
+
+.main_body input{
+    width: 100%;
+    height: 60px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    font-size: 28px;
+    font-weight: 600;
+}
+.main_body textarea{
+    width: 100%;
+    height: 100px;
+    outline: none;
+    border: none;
+    padding-left: 7px;
+    font-size: 14px;
+}
+.main_body button{
+position: absolute;
+bottom: -10%;
+right: 4%;
+    border-radius: 40px;
+    width: 20px;
+    height: 40px;
+    box-shadow: 0px 0px 10px 1px rgb(119, 119, 119);
+    background-color: rgb(253, 253, 253);
+}
+.main_body button:hover{
+    background-color: orange;
+}
+.addbtn{
+    color: orange;
+
+}
+.main_body button:hover .addbtn{
+    color: white;
+}
+
+
+@media (max-width: 1020px){
+
+    .main_body{
+
+        position: relative;
+        top: 0%;
+        left: 10%;
+        width: 80%;
+        margin-top: 10%;
+        }
+        .main_body input{
+        
+            height: auto;
+            padding-left: 1%;
+            font-size: 6vw;
+            margin-bottom: 1%;
+            font-weight: 400;
+        }
+        
+.main_body textarea{
+    width: 100%;
+    height: 100px;
+    outline: none;
+    border: none;
+    padding-top: 1%;
+    padding-left: 1%;
+    font-size: 3.5vw;
+}
+}
